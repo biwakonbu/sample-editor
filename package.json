@@ -1,11 +1,14 @@
 {
-  "name": "sample-editor",
-  "version": "0.0.1",
-  "description": "sample editor",
-  "main": "main.js",
-  "author": "biwakonbu",
-  "license": "MIT",
-  "devDependencies": {
-    "electron": "^4.1.4"
-  }
+    "name": "sample-editor",
+    "version": "0.0.1",
+    "description": "sample editor",
+    "main": "main.js",
+    "author": "biwakonbu",
+    "license": "MIT",
+    "scripts": {
+        "start": "node_modules/.bin/electron ."
+    },
+    "devDependencies": {
+        "electron": "^4.1.4"
+    }
 }
